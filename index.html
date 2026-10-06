@@ -7,27 +7,32 @@
     <title>High Protein Recipe Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Create high protein recipes</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the ingerients you want to add"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Your repice is here
-        <br />
-        Ingredietns
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Create high protein recipes</h1>
+      </header>
+
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the ingerients you want to add"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe">
+          Your repice is here
+          <br />
+          Ingredietns
+        </div>
+      </main>
+    </div>
   </body>
+
   <footer>
     This AI project was coded by
     <a href="https://github.com/nancygkrn">nancygkrn</a>, it is
@@ -42,5 +47,6 @@
       >Netlify</a
     >
   </footer>
+
   <script src="src/index.js"></script>
 </html>
